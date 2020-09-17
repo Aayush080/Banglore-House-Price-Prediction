@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bangalore House Price Predictor ML App</title>
+  <link rel="stylesheet" href="/static/style.css">
+
+
+
+</head>
+
+<body>
+
+
+  
+
+
+  <div class="login">
+
+
+    <center>
+      <form action="{{ url_for('predict')}}" method="post">
+        <h1>Enter house details</h1>
+
+        <input align="center" type="number" name="bathrooms" placeholder="Bathrooms" required="required" width="48"
+          height="10" step=".01" /><br>
+        <input align="center" type="number" name="balcony" placeholder="Balcony" required="required" width="48"
+          height="10" step=".01" /><br>
+        <input align="center" type="number" name="total_sqft_int" placeholder="Total Squre Foot" required="required"
+          width="48" height="10" step=".01" /><br>
+        <input align="center" type="number" name="bhk" placeholder="BHK" required="required" width="48" height="10"
+          step=".01" /><br>
+        <input align="center" type="number" name="price_per_sqft" placeholder="Price Per Squre Foot" required="required"
+          width="48" height="10" step=".01" /><br>
+        <input type="text" name="area_type" placeholder="Area Type" required="required" /><br>
+        <input type="text" name="availability" placeholder="House Availability" required="required" /><br>
+        <input type="text" name="location" placeholder="House Location" required="required" />
+
+        <br>
+
+        <br>
+
+
+        <div class="button_cont" align="center"><a class="button_css" href=""
+            target="_blank" rel="nofollow noopener">
+            <button type="submit" class="btn btn-primary btn-block btn-large"><strong>Predict House
+                Price</strong></button></a>
+        </div>
+
+      </form>
+    </center>
+
+
+    <div>
+      <center>
+        <h2>{{ prediction_text }}</h2>
+      </center>
+    </div>
+
+  </div>
+
+
+  
+</body>
+
+</html>
