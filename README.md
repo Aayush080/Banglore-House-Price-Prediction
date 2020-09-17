@@ -20,3 +20,12 @@ Buying a home, especially in a city like BANGLORE, is a tricky choice. While the
 7.Bath – No. of bathrooms
 
 8.Balcony – No. of the balcony
+
+## Target variable
+ Price – Value of the property in lakhs(INR)
+ 
+ ## Evaluation Metric
+ 1. Root mean squared error
+ 2. Mean absolute % error  
+ 3. R-squared  
+
