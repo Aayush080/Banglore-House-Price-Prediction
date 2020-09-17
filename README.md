@@ -2,7 +2,7 @@
 Buying a home, especially in a city like BANGLORE, is a tricky choice. While the major factors are usually the same for all metros, there are others to be considered for the Silicon Valley of India. With its help millennial crowd, vibrant culture, great climate and a slew of job opportunities, it is difficult to ascertain the price of a house in Bengaluru.
 # Goal - To build a model to predict the price of houses in Banglore.
 # DATASETS
-# RECORDS-13320 records with 9 features.
+## RECORDS-13320 records with 9 features.
 
 ## Features:
 1.Area_type – describes the area
